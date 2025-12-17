@@ -1,4 +1,5 @@
 import fs from "fs/promises"
+
 export async function getPepole() {
     try {
         const res = await fetch("https://spiestestserver-8l55.onrender.com/people")
@@ -52,6 +53,8 @@ export async function findDangerousPeople() {
         const read = await fs.readFile('./TRANSCRIPTIONS.json', 'utf-8', () => { })
         const text = JSON.parse(read)
         const transcriptions = text.filter((call) => {
+            if (call.content.includes("death", "knife", "bomb", "attack")) {
+            }
         })
     } catch (error) {
         console.error(error)
