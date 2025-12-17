@@ -1,0 +1,24 @@
+{
+  "name": "test_week_8",
+  "version": "1.0.0",
+  "description": "pinchas lifshitz\r 212627277\r galil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinchas0537/test_week_8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pinchas0537/test_week_8/issues"
+  },
+  "homepage": "https://github.com/pinchas0537/test_week_8#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
+}
